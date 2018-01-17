@@ -1,0 +1,131 @@
+body {
+    background-color: hsl(226, 1%, 12%) !important;
+    background-size: cover;
+    min-width: 100%;
+    margin: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 125%;
+}
+
+.home {
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.footer {
+    height: 50px;
+    background-color: hsl(205, 91%, 43%);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    font-size: 115%;
+    color: white;
+}
+.row {
+    margin-top: 2px;
+}
+
+.repos {
+    float: right;
+}
+
+.removeHL {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+.removeHL:hover {
+    color: inherit;
+    font-weight: bold;
+}
+
+.social {
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.btn {
+    margin-top: 20px;
+    color: hsl(205, 91%, 43%);
+    font-weight: bold;
+    width: 300px;
+}
+
+.sidebar-menu {
+    background-color: hsl(226, 1%, 21%);
+    width: 51px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.another-sidebar {
+    background-color: hsl(226, 1%, 16%);
+    width: 169px;
+    left: 51;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.icons {
+    margin-top: 12px;
+}
+
+.division0 {
+    margin-left: 25px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-size: 107%;
+    font-weight: bold;
+    color: slategray;
+}
+
+.division1 {
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: hsl(226, 1%, 19.2%);
+    font-weight: bolder;
+}
+
+.division2 {
+    padding-left: 35px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+
+.division3 {
+    padding-left: 45px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+
+.division2:hover {
+    background-color: hsl(226, 1%, 18%)
+}
+
+.division2:active {
+    background-color: hsl(205, 91%, 43%);
+}
+
+.division3:hover {
+    background-color: hsl(226, 1%, 18%)
+}
+
+.division3:active {
+    background-color: hsl(205, 91%, 43%);
+}
+
+.switch {
+    margin-left: 5px;
+    margin-top: 15px;
+}

@@ -1,0 +1,39 @@
+<html lang="en" ng-app="PortfolioApp">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Júlio Barreto's Portfolio</title>
+
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/angular/angular.min.js"></script>
+        <script src="node_modules/angular-sanitize/angular-sanitize.min.js"></script>
+        <script src="node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+        <script src="node_modules/angular-ui-router.statehelper/statehelper.min.js"></script>
+        <script src="node_modules/showdown/dist/showdown.min.js"></script>
+        <script src="node_modules/ng-showdown/dist/ng-showdown.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="node_modules/bootstrap-switch/dist/js/bootstrap-switch.min.js"></script>
+        <script src="node_modules/angular-bootstrap-switch/dist/angular-bootstrap-switch.min.js"></script>
+
+        <script src="src/app.js"></script>
+        <script src="src/filters/language.js"></script>
+        <script src="src/controllers/homeCtrl.js"></script>
+        <script src="src/controllers/portfolioCtrl.js"></script>
+        <script src="src/controllers/infoCtrl.js"></script>
+
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css">
+        <link rel="stylesheet" href="assets/css/master.css">
+        <link rel="icon" href="assets/images/coding2.png">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <ui-view></ui-view>
+        
+    </body>
+
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "My Github.io Portfolio",
+  "main": "index.js",
+  "author": "julio.costa@ccc.ufcg.edu.br",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.13",
+    "angular": "^1.6.8",
+    "angular-bootstrap-switch": "^0.5.2",
+    "angular-ui-router.statehelper": "^1.3.1",
+    "bootstrap": "^3.3.7",
+    "bootstrap-switch": "^3.3.4",
+    "jquery": "^3.2.1",
+    "ng-showdown": "^1.1.0",
+    "showdown": "^1.8.6"
+  }
+}
