@@ -16,7 +16,7 @@ app.filter("language", function() {
             if (input) {
                 return "This is a small introduction to my Portfolio. First of all, I'd like to thank you for seeing this page and checking out my work."
             } else {
-                return "Esta é uma pequena introdução ao meu Portfolio. Antes de tudo, gostaria de agradecer por estarem nessa página vendo meu trabalho."
+                return "Esta é uma pequena introdução ao meu Portfolio. Antes de tudo, gostaria de agradecer por estar nessa página vendo meu trabalho."
             }
         } else if (letter == "d") {
             if (input) {
@@ -36,6 +36,48 @@ app.filter("language", function() {
                 return "Lets go!"
             } else {
                 return "Vamos lá!"
+            }
+        } else if (letter == "g") {
+            if (input) {
+                return "Sections"
+            } else {
+                return "Seções"
+            }
+        } else if (letter == "h") {
+            if (input) {
+                return "About me"
+            } else {
+                return "Sobre mim"
+            }
+        } else if (letter == "i") {
+            if (input) {
+                return "Places"
+            } else {
+                return "Lugares"
+            }
+        } else if (letter == "j") {
+            if (input) {
+                return "Profile"
+            } else {
+                return "Perfil"
+            }
+        } else if (letter == "k") {
+            if (input) {
+                return "University"
+            } else {
+                return "Universidade"
+            }
+        } else if (letter == "l") {
+            if (input) {
+                return "Monitoring"
+            } else {
+                return "Monitoria"
+            }
+        } else if (letter == "m") {
+            if (input) {
+                return "Projects"
+            } else {
+                return "Projetos"
             }
         }
     }

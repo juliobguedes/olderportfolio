@@ -129,3 +129,52 @@ body {
     margin-left: 5px;
     margin-top: 15px;
 }
+
+.content {
+    left: 220;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    font-size: 105%
+}
+
+.mainContent {
+    padding: 50px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.vscode {
+    padding-right: 7px;
+    text-align: right;
+    left: 240;
+    right: 1100;
+    top: 310;
+    bottom: 50;
+    position: fixed;
+    border-right: 1px solid;
+    color: hsl(226, 1%, 55%);
+    border-color: hsl(226, 1%, 35%);
+}
+
+.vs-lines {
+    left: 285;
+    top: 310;
+    bottom: 50;
+    right: 50;
+    position: fixed;
+}
+
+.vs-line {
+    position: relative !important;
+}
+
+.a {
+    background-color: wheat;
+}
