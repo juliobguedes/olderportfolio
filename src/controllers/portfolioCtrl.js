@@ -1,21 +1,21 @@
 /**
- * portfolioEnCtrl is the Controller for the English version of
- * the portfolio page and all its children (see ui.router.stateHelper
+ * portfolioCtrl is the Controller of the portfolio page and
+ * all its childenr (see ui.router.stateHelper
  * for the concept of page children and nested views)
  * @param $scope is the link between the DOM and the Controller.
  * @param $state is the link between the Controller and the ui.router
  * state change.
  */
-app.controller("portfolioEnCtrl", function($scope, $state) {
-    $scope.input = true;
-
-    $scope.aboutme = "src/jsons/en/aboutme.json";
-    $scope.hobbies1 = "src/jsons/en/hobbies1.json";
-    $scope.hobbies2 = "src/jsons/en/hobbies2.json";
-    $scope.places1 = "src/jsons/en/places1.json";
-    $scope.places2 = "src/jsons/en/places2.json";
-    $scope.university1 = "src/jsons/en/university1.json";
-    $scope.university2 = "src/jsons/en/university2.json";
+app.controller("portfolioCtrl", function($scope, $state, Portfolio) {
+    $scope.language = Portfolio.getLanguage()
+    $scope.input = $scope.language.input;
+    $scope.aboutme = $scope.language.aboutme;
+    $scope.hobbies1 = $scope.language.hobbies1;
+    $scope.hobbies2 = $scope.language.hobbies2;
+    $scope.places1 = $scope.language.places1;
+    $scope.places2 = $scope.language.places2;
+    $scope.university1 = $scope.language.university1;
+    $scope.university2 = $scope.language.university2;
 
     $state.transitionTo('portfolioEN.aboutme');
     /**
@@ -44,8 +44,8 @@ app.controller("portfolioEnCtrl", function($scope, $state) {
             $state.transitionTo('portfolioEN.places2');
         } else if (str == "projects") {
             $state.transitionTo('portfolioEN.projects');
-        } else if (str == "tormenta") {
-            $state.transitionTo('portfolioEN.tormenta');
+        } else if (str == "tormta") {
+            $state.transitionTo('portfolioEN.tormta');
         } else {
             $state.transitionTo('portfolioEN.university');
         }
