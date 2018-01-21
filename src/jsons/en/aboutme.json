@@ -1,0 +1,8 @@
+{
+    "name":"Júlio Barreto Guedes da Costa",
+    "age":19, 
+    "main-email":"julio.costa@ccc.ufcg.edu.br",
+    "secondary-email":"juliobguedes@gmail.com", 
+    "employed":false, 
+    "description":"Hi, i am a CS undergratuate student @ UFCG, currently on the 4th semester. So far, i have some experience in front and back-end acquired in the programming classes that I attended. In the back-end part, I am able to program in Java, having an almost complete domain about Object Oriented Programming, and some knowledge about node.js back-end development. In the front-end part, I have acquired a proficiency level in HTML5, CSS3 and Angular.js - framework that I use more frequently - and Angular.js packages such as @ui.router (and ui.router.stateHelper for nested views), ngToast and ng-showdown. I also have a small knowledge in jQuery, and I am currently developing many data visualizations using d3 - posted on my GitHub Pages using Hugo. Check them out in the other sections. :)"
+}

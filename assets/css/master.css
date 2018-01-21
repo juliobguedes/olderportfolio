@@ -54,6 +54,9 @@ body {
     margin-top: 20px;
     color: hsl(205, 91%, 43%);
     font-weight: bold;
+}
+
+.btn.portfolio {
     width: 300px;
 }
 
@@ -113,15 +116,11 @@ body {
     background-color: hsl(226, 1%, 18%)
 }
 
-.division2:active {
-    background-color: hsl(205, 91%, 43%);
-}
-
 .division3:hover {
     background-color: hsl(226, 1%, 18%)
 }
 
-.division3:active {
+.division3:visited {
     background-color: hsl(205, 91%, 43%);
 }
 
@@ -150,31 +149,39 @@ body {
     object-fit: cover;
 }
 
-.vscode {
-    padding-right: 7px;
-    text-align: right;
-    left: 240;
-    right: 1100;
-    top: 310;
-    bottom: 50;
-    position: fixed;
-    border-right: 1px solid;
-    color: hsl(226, 1%, 55%);
-    border-color: hsl(226, 1%, 35%);
+pre {
+    padding: 0 !important;
 }
 
-.vs-lines {
-    left: 285;
-    top: 310;
-    bottom: 50;
-    right: 50;
-    position: fixed;
+.aboutCode {
+    margin-top: 50px;
 }
 
-.vs-line {
-    position: relative !important;
+.seriesImg {
+    width: 187.5px;
+    height: 250px;
 }
 
-.a {
-    background-color: wheat;
+.seriesImg2 {
+    width: 238px;
+    height: 319px;
+}
+
+.part2 {
+    margin-top: 30px;
+}
+
+.cityImg {
+    width: 480px;
+    height: 360px;
+}
+
+.logo {
+    width: 239px;
+    height: 295px;
+}
+
+.logoImg {
+    width: 300px;
+    height: 212px;
 }

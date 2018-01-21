@@ -1,0 +1,8 @@
+{
+    "nome":"Júlio Barreto Guedes da Costa",
+    "idade":19, 
+    "email-principal":"julio.costa@ccc.ufcg.edu.br",
+    "email-secundario":"juliobguedes@gmail.com", 
+    "empregado":false, 
+    "descrição":"Olá, sou aluno de Ciência da Computação pela UFCG, atualmente no 4° semestre. Até agora, Tenho experiência em front e back-end, adquirida nas disciplinas de programação que cursei. Na parte de back-end, sei programar em Java, tendo quase completo domínio sobre Programação Orientada a Objetos, e um conhecimento básico sobre desenvolvimento em node.js. Na parte de front-end, adquiri proficiência em HTML5, CSS3 e Angular.js - framework que uso com mais frequência - e os packages de Angular.js, como @ui.router (e ui.router.stateHelper para nested views), ngToast e ng-showdown. Também tenho um pouco de conhecimento em jQuery e também estou desenvolvendo algumas visualizações de dados em d3 - postadas no meu GitHub pages através do Hugo. Saiba mais sobre nas outras seções. :)"
+}

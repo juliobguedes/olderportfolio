@@ -10,11 +10,14 @@
     "@uirouter/angularjs": "^1.0.13",
     "angular": "^1.6.8",
     "angular-bootstrap-switch": "^0.5.2",
+    "angular-highlightjs": "^0.7.1",
     "angular-ui-router.statehelper": "^1.3.1",
     "bootstrap": "^3.3.7",
     "bootstrap-switch": "^3.3.4",
+    "highlight.js": "^9.12.0",
     "jquery": "^3.2.1",
     "ng-showdown": "^1.1.0",
+    "prismjs": "^1.10.0",
     "showdown": "^1.8.6"
   }
 }

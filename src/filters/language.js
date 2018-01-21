@@ -79,6 +79,18 @@ app.filter("language", function() {
             } else {
                 return "Projetos"
             }
+        } else if (letter == "n") {
+            if (input) {
+                return "Next Page"
+            } else {
+                return "Próxima Página"
+            }
+        } else if (letter == "o") {
+            if (input) {
+                return "Previous Page"
+            } else {
+                return "Página Anterior"
+            }
         }
     }
 })
