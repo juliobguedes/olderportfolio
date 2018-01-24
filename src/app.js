@@ -11,41 +11,40 @@ app.config(function($stateProvider, $urlRouterProvider) {
         url: "/home",
         templateUrl:'templates/home.html',
         controller:"homeCtrl"
-    }).state("portfolioEN", {
-        url:"/about", 
+    }).state("portfolio", {
+        url:"/:language/about", 
         templateUrl:'templates/portfolio.html',
-        controller:"portfolioCtrl"
+        controller:"portfolioCtrl",
+        resolve:{
+            language:function($stateParams) {
+                return $stateParams.language;
+            }
+        }
     }).state("info", {
         url:"/info",
         templateUrl:'templates/info.html',
         controller:"infoCtrl"
-    }).state("portfolioPT", {
-        url:"/portfolio", 
-        templateUrl:'templates/portfolio.html',
-        controller:"portfolioCtrl"
-    }).state("portfolioEN.aboutme", {
+    }).state("portfolio.aboutme", {
         templateUrl:'templates/aboutme.html'
-    }).state("portfolioEN.hobbies", {
+    }).state("portfolio.hobbies", {
         templateUrl:'templates/hobbies.html'
-    }).state("portfolioEN.libratizar", {
+    }).state("portfolio.libratizar", {
         templateUrl:'templates/libratizar.html'
-    }).state("portfolioEN.libratizar2", {
+    }).state("portfolio.libratizar2", {
         templateUrl:'templates/libratizar2.html'
-    }).state("portfolioEN.monitoring", {
+    }).state("portfolio.monitoring", {
         templateUrl:'templates/monitoring.html'
-    }).state("portfolioEN.musichub", {
+    }).state("portfolio.musichub", {
         templateUrl:'templates/musichub.html'
-    }).state("portfolioEN.pet", {
+    }).state("portfolio.pet", {
         templateUrl:'templates/pet.html'
-    }).state("portfolioEN.places1", {
+    }).state("portfolio.places1", {
         templateUrl:'templates/places1.html'
-    }).state("portfolioEN.places2", {
+    }).state("portfolio.places2", {
         templateUrl:'templates/places2.html'
-    }).state("portfolioEN.projects", {
-        templateUrl:'templates/projects.html'
-    }).state("portfolioEN.university", {
+    }).state("portfolio.university", {
         templateUrl:'templates/university.html'
-    }).state("portfolioEN.tormenta", {
+    }).state("portfolio.tormenta", {
         templateUrl:'templates/tormenta.html'
     });
 });

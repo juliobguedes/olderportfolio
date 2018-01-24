@@ -6,23 +6,31 @@
  * @param $state is the link between the Controller and the ui.router
  * state change.
  */
-app.controller("portfolioCtrl", function($scope, $state, Portfolio) {
-    $scope.language = Portfolio.getLanguage()
-    $scope.input = $scope.language.input;
-    $scope.aboutme = $scope.language.aboutme;
-    $scope.hobbies1 = $scope.language.hobbies1;
-    $scope.hobbies2 = $scope.language.hobbies2;
-    $scope.places1 = $scope.language.places1;
-    $scope.places2 = $scope.language.places2;
-    $scope.university1 = $scope.language.university1;
-    $scope.university2 = $scope.language.university2;
-    $scope.monitoring = $scope.language.monitoring;
-    $scope.pet1 = $scope.language.pet1;
-    $scope.pet2 = $scope.language.pet2;
-    $scope.libratizar1 = $scope.language.libratizar1;
-    $scope.libratizar2 = $scope.language.libratizar2;
+app.controller("portfolioCtrl", function($scope, $state, language) {
 
-    $state.transitionTo('portfolioEN.aboutme');
+    $scope.adaptLanguage = (lang) => {
+        if (lang == "en") {
+            $scope.input = true;
+        } else {
+            $scope.input = false;
+        }
+        $scope.aboutme = "src/jsons/" + lang +"/aboutme.json";
+        $scope.hobbies1 = "src/jsons/" + lang +"/hobbies1.json";
+        $scope.hobbies2 = "src/jsons/" + lang +"/hobbies2.json";
+        $scope.places1 = "src/jsons/" + lang +"/places1.json";
+        $scope.places2 = "src/jsons/" + lang +"/places2.json";
+        $scope.university1 = "src/jsons/" + lang +"/university1.json";
+        $scope.university2 = "src/jsons/" + lang +"/university2.json";
+        $scope.monitoring = "src/jsons/" + lang +"/monitoring.json";
+        $scope.pet1 = "src/jsons/" + lang +"/pet1.json";
+        $scope.pet2 = "src/jsons/" + lang +"/pet2.json";
+        $scope.libratizar1 = "src/jsons/" + lang +"/libratizar1.json";
+        $scope.libratizar2 = "src/jsons/" + lang +"/libratizar2.json";
+    }
+
+    $scope.adaptLanguage(language);
+
+    $state.transitionTo('portfolio.aboutme', {language:language});
     /**
      * Method used to change the nested view in the portfolio
      * page. The str parameter is set manually in each button
@@ -32,29 +40,30 @@ app.controller("portfolioCtrl", function($scope, $state, Portfolio) {
      */
     $scope.changeTemplate = (str) => {
         if (str == "about") {
-            $state.transitionTo('portfolioEN.aboutme');
+            $state.transitionTo('portfolio.aboutme', {language:language});
         } else if (str == "hobbies") {
-            $state.transitionTo('portfolioEN.hobbies');
+            $state.transitionTo('portfolio.hobbies', {language:language});
         } else if (str == "libratizar") {
-            $state.transitionTo('portfolioEN.libratizar');
+            $state.transitionTo('portfolio.libratizar', {language:language});
         } else if (str == "libratizar2") {
-            $state.transitionTo('portfolioEN.libratizar2');
+            $state.transitionTo('portfolio.libratizar2', {language:language});
         } else if (str == "monitoring") {
-            $state.transitionTo('portfolioEN.monitoring');
+            $state.transitionTo('portfolio.monitoring', {language:language});
         } else if (str == "musichub") {
-            $state.transitionTo('portfolioEN.musichub');
+            $state.transitionTo('portfolio.musichub', {language:language});
         } else if (str == "pet") {
-            $state.transitionTo('portfolioEN.pet');
+            $state.transitionTo('portfolio.pet', {language:language});
         } else if (str == "places1") {
-            $state.transitionTo('portfolioEN.places1');
+            $state.transitionTo('portfolio.places1', {language:language});
         } else if (str == "places2") {
-            $state.transitionTo('portfolioEN.places2');
+            $state.transitionTo('portfolio.places2', {language:language});
         } else if (str == "projects") {
-            $state.transitionTo('portfolioEN.projects');
+            $state.transitionTo('portfolio.projects', {language:language});
         } else if (str == "tormenta") {
-            $state.transitionTo('portfolioEN.tormenta');
+            $state.transitionTo('portfolio.tormenta', {language:language});
         } else {
-            $state.transitionTo('portfolioEN.university');
+            $state.transitionTo('portfolio.university', {language:language});
         }
     }
 })
+

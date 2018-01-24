@@ -1,3 +1,8 @@
+@font-face {
+    src: url('../fonts/Gunny.ttf');
+    font-family: 'Gunny';
+}
+
 body {
     background-color: hsl(226, 1%, 12%) !important;
     background-size: cover;
@@ -202,4 +207,17 @@ pre {
 .banner {
     margin-top: -20px;
     width: 400px;
+}
+
+.Gunny {
+    font-family: Gunny;
+    font-size: 48px;
+}
+
+.logoTormenta {
+    width: 325px;
+}
+
+.logoD20 {
+    height: 128px;
 }

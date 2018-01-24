@@ -1,0 +1,11 @@
+{
+    "nome":"Mulheres na Computação",
+    "professor-orientador":"Lívia Sampaio",
+    "objetivo-principal":"Identificar os motivos que levam à escolha da graduação em Ciência da Computação",
+    "metodo":"Replica do estudo feito pela Google",
+    "baseado-em":"Gender Differences in Factors Influencing Pursuit of Computer Science and Related Fields",
+    "estrategias-tomadas":"Estudo de regressão linear e regressão logística em R e aplicação da Análise de Factores para encontrar fatores comuns",
+    "linguagem-usada":"R",
+    "packages-usados":["psych", "ggplot2", "FactoMineR"],
+    "concluido":false
+}

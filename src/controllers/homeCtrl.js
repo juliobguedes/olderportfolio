@@ -3,9 +3,9 @@ app.controller("homeCtrl", function($scope, $state) {
 
     $scope.about = (input) => {
         if (input) {
-            $state.go("portfolioEN");
+            $state.go("portfolio", {language:"en"});
         } else {
-            $state.go("portfolioPT");
+            $state.go("portfolio", {language:"pt"});
         }
     }
 })
