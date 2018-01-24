@@ -1,0 +1,9 @@
+{"hobbies":[
+    {
+        "hobby":"series",
+        "favoritos":["Chuck", "Greys Anatomy", "Black Mirror", "Designated Survivor", "Dark", "Supernatural", "Merlin", "Doctor Who", "Stranger Things", "Sense8", "Love"]
+    }, {
+        "hobby":"musica",
+        "favoritos":["Katy Perry", "Lady Gaga", "Lorde", "Camila Cabello", "Engenheiros do Hawaii", "Los Hermanos", "Legião Urbana", "Ultraje a Rigor", "Vegas", "W&W", "Liu", "Alok", "Bhaskar", "ViniVici", "Anitta", "Pabllo Vittar"]
+    }]
+}

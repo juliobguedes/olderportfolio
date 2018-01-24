@@ -16,6 +16,11 @@ app.controller("portfolioCtrl", function($scope, $state, Portfolio) {
     $scope.places2 = $scope.language.places2;
     $scope.university1 = $scope.language.university1;
     $scope.university2 = $scope.language.university2;
+    $scope.monitoring = $scope.language.monitoring;
+    $scope.pet1 = $scope.language.pet1;
+    $scope.pet2 = $scope.language.pet2;
+    $scope.libratizar1 = $scope.language.libratizar1;
+    $scope.libratizar2 = $scope.language.libratizar2;
 
     $state.transitionTo('portfolioEN.aboutme');
     /**
@@ -32,6 +37,8 @@ app.controller("portfolioCtrl", function($scope, $state, Portfolio) {
             $state.transitionTo('portfolioEN.hobbies');
         } else if (str == "libratizar") {
             $state.transitionTo('portfolioEN.libratizar');
+        } else if (str == "libratizar2") {
+            $state.transitionTo('portfolioEN.libratizar2');
         } else if (str == "monitoring") {
             $state.transitionTo('portfolioEN.monitoring');
         } else if (str == "musichub") {
@@ -44,8 +51,8 @@ app.controller("portfolioCtrl", function($scope, $state, Portfolio) {
             $state.transitionTo('portfolioEN.places2');
         } else if (str == "projects") {
             $state.transitionTo('portfolioEN.projects');
-        } else if (str == "tormta") {
-            $state.transitionTo('portfolioEN.tormta');
+        } else if (str == "tormenta") {
+            $state.transitionTo('portfolioEN.tormenta');
         } else {
             $state.transitionTo('portfolioEN.university');
         }

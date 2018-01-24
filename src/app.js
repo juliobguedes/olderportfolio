@@ -12,7 +12,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
         templateUrl:'templates/home.html',
         controller:"homeCtrl"
     }).state("portfolioEN", {
-        url:"/portfolio", 
+        url:"/about", 
         templateUrl:'templates/portfolio.html',
         controller:"portfolioCtrl"
     }).state("info", {
@@ -29,6 +29,8 @@ app.config(function($stateProvider, $urlRouterProvider) {
         templateUrl:'templates/hobbies.html'
     }).state("portfolioEN.libratizar", {
         templateUrl:'templates/libratizar.html'
+    }).state("portfolioEN.libratizar2", {
+        templateUrl:'templates/libratizar2.html'
     }).state("portfolioEN.monitoring", {
         templateUrl:'templates/monitoring.html'
     }).state("portfolioEN.musichub", {
@@ -43,5 +45,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
         templateUrl:'templates/projects.html'
     }).state("portfolioEN.university", {
         templateUrl:'templates/university.html'
-    })
+    }).state("portfolioEN.tormenta", {
+        templateUrl:'templates/tormenta.html'
+    });
 });

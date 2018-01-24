@@ -14,9 +14,9 @@ app.filter("language", function() {
             }
         } else if (letter == "c") {
             if (input) {
-                return "This is a small introduction to my Portfolio. First of all, I'd like to thank you for seeing this page and checking out my work."
+                return "This is a small introduction to my personal page. First of all, I'd like to thank you for seeing this page and checking out my work."
             } else {
-                return "Esta é uma pequena introdução ao meu Portfolio. Antes de tudo, gostaria de agradecer por estar nessa página vendo meu trabalho."
+                return "Esta é uma pequena introdução à minha página pessoal. Antes de tudo, gostaria de agradecer por estar nessa página vendo meu trabalho."
             }
         } else if (letter == "d") {
             if (input) {
@@ -33,9 +33,9 @@ app.filter("language", function() {
             }
         } else if (letter == "f") {
             if (input) {
-                return "Lets go!"
+                return "Detailed version"
             } else {
-                return "Vamos lá!"
+                return "Versão detalhada"
             }
         } else if (letter == "g") {
             if (input) {
@@ -90,6 +90,18 @@ app.filter("language", function() {
                 return "Previous Page"
             } else {
                 return "Página Anterior"
+            }
+        } else if (letter == "p") {
+            if (input) {
+                return "If you want to see my /about page with details of each project, click on the left button below. If you want an overview of my projects, go with the right one."
+            } else {
+                return 'Se você quer ver uma página sobre mim e com detalhes de cada projeto, clique no botão à esquerda. Caso queira apenas ver uma visão geral dos meus projetos, clique no botão à direita.'
+            }
+        } else if (letter == "q") {
+            if (input) {
+                return "Overview"
+            } else {
+                return "Visão Geral"
             }
         }
     }

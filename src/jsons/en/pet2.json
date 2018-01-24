@@ -1,0 +1,11 @@
+{
+    "name":"Women in Computation",
+    "teacher-advisor":"Livia Sampaio",
+    "main-objective":"Discover why women choose to study CS",
+    "how-to-achieve":"Replicating Google Study",
+    "based-on-article":"Gender Differences in Factors Influencing Pursuit of Computer Science and Related Fields",
+    "strategies-taken":"Study linear regression and logistic regression in R, and trying to apply Factor Analysis to found the main common factors",
+    "language-used":"R",
+    "packages-used":["psych", "ggplot2", "FactoMineR"],
+    "already-achieved":false
+}

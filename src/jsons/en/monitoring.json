@@ -1,0 +1,29 @@
+{
+    "monitoring":[
+        {
+            "class":"Programming 1 Lab",
+            "teacher-advisor":"João Arthur Brunet",
+            "hours-week":12,
+            "completed":true,
+            "teacher-advisor-comment":"Júlio performed the monitoring activities above average, showing proactivity and commitment"
+        }, {
+            "class":"Programming 1 Lab",
+            "teacher-advisor":"Wilkerson Lucena",
+            "hours-week":12,
+            "completed":true,
+            "teacher-advisor-comment":"Júlio performed correctly the activities predicted."
+        }, {
+            "class":"Programming 1 Lab",
+            "teacher-advisor":"Wilkerson Lucena",
+            "hours-week":12,
+            "completed":false,
+            "teacher-advisor-comment":null
+        }, {
+            "class":"Algorithms and Data Structures",
+            "teacher-advisor":"Adalberto",
+            "hours-week":2,
+            "completed":false,
+            "teacher-advisor-comment":null
+        }
+    ]
+}

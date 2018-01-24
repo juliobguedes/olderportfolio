@@ -1,0 +1,13 @@
+{
+    "team":"Libratizar",
+    "members":["Júlio Barreto", "Kalina Ferreira", "Samuel Rufino"],
+    "problem-chosen":"Education of deaf children in portuguese",
+    "how-to":"Online platform (Initially web, then Android, then iOS) with video lessons in a rich visual context to teach deaf kids how to read and write in portuguese with the help of a Libras (Brazilian Languages of Signs) instructor.",
+    "validation":true,
+    "presentation":{
+        "type":"pitch",
+        "presenter":"Júlio Barreto",
+        "time":"3 minutes"
+    },
+    "final-position":"Second place, honorable mention"
+}

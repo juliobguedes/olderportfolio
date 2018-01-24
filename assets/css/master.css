@@ -58,6 +58,11 @@ body {
 
 .btn.portfolio {
     width: 300px;
+    background-color: snow;
+}
+
+.btn.portfolio.overview {
+    background-color: wheat;
 }
 
 .sidebar-menu {
@@ -106,6 +111,10 @@ body {
     font-weight: bold;
 }
 
+.clickable {
+    cursor: pointer;
+}
+
 .division3 {
     padding-left: 45px;
     padding-top: 3px;
@@ -113,11 +122,11 @@ body {
 }
 
 .division2:hover {
-    background-color: hsl(226, 1%, 18%)
+    background-color: hsl(226, 1%, 18%);
 }
 
 .division3:hover {
-    background-color: hsl(226, 1%, 18%)
+    background-color: hsl(226, 1%, 18%);
 }
 
 .division3:visited {
@@ -184,4 +193,13 @@ pre {
 .logoImg {
     width: 300px;
     height: 212px;
+}
+
+.logoMnc {
+    height: 240px;
+}
+
+.banner {
+    margin-top: -20px;
+    width: 400px;
 }

@@ -7,7 +7,12 @@ app.service("Portfolio", function($state) {
         places1: "src/jsons/en/places1.json",
         places2: "src/jsons/en/places2.json",
         university1: "src/jsons/en/university1.json",
-        university2: "src/jsons/en/university2.json"
+        university2: "src/jsons/en/university2.json",
+        monitoring: "src/jsons/en/monitoring.json",
+        pet1: "src/jsons/en/pet1.json",
+        pet2: "src/jsons/en/pet2.json",
+        libratizar1: "src/jsons/en/libratizar1.json",
+        libratizar2: "src/jsons/en/libratizar2.json",
     }
 
     this.pt = {

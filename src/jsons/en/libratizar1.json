@@ -1,0 +1,12 @@
+{
+    "event":"FETECh",
+    "edition":"14th",
+    "organization":"PaqTecPB",
+    "competition":{
+        "name":"Hackathon",
+        "edition":"1st",
+        "organization":"ITCG",
+        "theme":"High Impact Business in Education",
+        "teams":["Estay", "Libratizar", "Educarrão", "Juntaqui"]
+    }
+}

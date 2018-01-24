@@ -1,0 +1,9 @@
+{
+    "hobbies":[{
+        "hobby":"filmes",
+        "favoritos":["One Day", "The Da Vinci Code", "Angels and Demons", "Good Will Hunting", "Ender's Game", "The Perks of Being a Wallflower", "Star Wars Series", "The Lord of The Ring Trilogy", "The Hobbit Trilogy", "Harry Potter Series", "Perfume: The Story of a Murderer", "Breakfast Club", "Marvel Movies", "About Time", "Theory of Everything", "The Imitation Game", "In Time", "Die Welle", "etc"]
+    }, {
+        "hobby":"jogos", 
+        "favoritos":["World of Warcraft", "Warcraft 3", "League of Legends", "Overwatch", "Counter Strike Global Offensive", "Counter Strike 1.6", "Don't Starve Together", "Dragon Ball Budokai Tenchaiki 3 (PS2)", "Need For Speed Most Wanted (PS2)", "Pokemon Gameboy Series", "Mario Bros Series", "Super Mario World", "Warframe", "Crash Bandicoot Series", "Sonic: The Hedgehog Series", "Priston Tale", "etc"]
+    }]
+}
