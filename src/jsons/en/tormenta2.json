@@ -1,0 +1,8 @@
+{
+    "tool":"TormentaFeatsbook",
+    "description":"To do some of the things like remove penalties in circunstances, get advantages in situations or even give a peronality to your character, you need feats. To make the search easier for the feats present in Tormenta, this tool was developed to be an in-game asset and make the game even more fluid.",
+    "technologies-used":[
+        "Python 2.7", "HTML5", "CSS3", "JavaScript", "Markdown",
+        "Angular.js", "angular-ui-router", "showdown", "ng-showdown"
+    ]
+}

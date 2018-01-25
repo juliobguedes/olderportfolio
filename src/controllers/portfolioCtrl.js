@@ -26,6 +26,9 @@ app.controller("portfolioCtrl", function($scope, $state, language) {
         $scope.pet2 = "src/jsons/" + lang +"/pet2.json";
         $scope.libratizar1 = "src/jsons/" + lang +"/libratizar1.json";
         $scope.libratizar2 = "src/jsons/" + lang +"/libratizar2.json";
+        $scope.musichub = "src/jsons/" + lang +"/musichub.json";
+        $scope.tormenta1 = "src/jsons/" + lang +"/tormenta1.json";
+        $scope.tormenta2 = "src/jsons/" + lang +"/tormenta2.json";
     }
 
     $scope.adaptLanguage(language);

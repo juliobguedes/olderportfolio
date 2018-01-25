@@ -1,0 +1,8 @@
+{
+    "ferramenta":"TormentaFeatsbook",
+    "descricao":"Para fazer algumas coisas como remover penalidades em circustâncias, ter vantagem em situações ou mesmo dar uma peronalidade para seu personagem, você precisa de talentos. Para facilitar a busca dos talentos presentes em Tormenta, essa ferramenta para ser uma funcionalidade adicional e tornar o jogo ainda mais fluido.",
+    "tecnologias-usadas":[
+        "Python 2.7", "HTML5", "CSS3", "JavaScript", "Markdown",
+        "Angular.js", "angular-ui-router", "showdown", "ng-showdown"
+    ]
+}

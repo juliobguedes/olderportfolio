@@ -1,0 +1,20 @@
+{
+    "objective":"Website developed to Informational Systems 1 class designed to manage artists, albuns and songs",
+    "user-stories":[{
+        "user-story":"1",
+        "functionalities":["Add artists", "Block adition of artist with the same name and display warning"]
+    }, {
+        "user-story":"2",
+        "functionalities":["Add Songs", "Add Albums", "Block adition of songs with the same name in the same album"]
+    }, {
+        "user-story":"3",
+        "functionalities":["Search artists by name", "Display an artist page with albums and songs", "Feature for artist rating", "Display last listened song of each artist"]
+    }, {
+        "user-story":"4",
+        "functionalities":["Feature to mark/unmark an artist as favorite"]
+    }, {
+        "user-story":"5",
+        "functionalities":["Add playlists", "Add/Remove songs to playlists"]
+    }],
+    "persistance":false
+}

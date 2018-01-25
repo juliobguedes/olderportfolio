@@ -1,0 +1,9 @@
+{
+    "tool":"TormentaSpellbook",
+    "description":"In RPG games inspired by D&D, there are a lot of features present: the fantasy of the game envolves magic, special features that are not present in the real world and allow us to develop and live a fantasy in our imagination. But in order to do that, there are a lot of rules to instantiate power and method: for some things you need experience, for others you need ingredients, etc. To cast some of the spells the are requisites to respect, and each spell has its own set of them. To make the search easier for the spells present in Tormenta, this tool was developed (based on the work of roenmidnight) to be an in-game asset and make the game even more fluid.",
+    "based-on":"https://roenmidnight.github.io/grimorio-trpg/",
+    "technologies-used":[
+        "Python 2.7", "HTML5", "CSS3", "JavaScript", "Markdown",
+        "Angular.js", "angular-ui-router", "showdown", "ng-showdown"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "ferramenta":"TormentaSpellbook",
+    "descricao":"Em jogos inspirados por D&D existe uma grande quantidade de traços presentes: a fantasia do jogo envolve magia e habilidades especiais não presentes no mundo real que nos permite desenvolver e viver a fantasia em nossa imaginação. Mas, para fazer isso, existe um conjunto de regras para instanciar poder e métodos para isso: algumas coisas, precisa-se de experiência, de ingredientes, etc. Para lançar algumas magias, existem pré-requisitos para respeitar e cada magia tem um conjunto deles. Para fazer a pesquisa de magias existentes em tormenta mais fácil, essa ferramenta foi desenvolvida (baseada no trabalho de roenmidnight) para ser uma ferramenta de auxilio ao jogo e torná-lo mais fluido.",
+    "baseado-em":"https://roenmidnight.github.io/grimorio-trpg/",
+    "tecnologias-usadas":[
+        "Python 2.7", "HTML5", "CSS3", "JavaScript", "Markdown",
+        "Angular.js", "angular-ui-router", "showdown", "ng-showdown"
+    ]
+}

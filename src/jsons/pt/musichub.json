@@ -1,0 +1,20 @@
+{
+    "objective":"Website desenvolvido para a disciplina de Sistemas da Informação 1 para organizar artistas, álbuns e músicas",
+    "user-stories":[{
+        "user-story":"1",
+        "funcionalidades":["Adicionar artistas", "Impedir a adição de artistas com o mesmo nome e mostrar aviso"]
+    }, {
+        "user-story":"2",
+        "funcionalidades":["Adicionar músicas", "Adicionar álbuns", "Impedir a adição de músicas com o mesmo nome no mesmo álbum"]
+    }, {
+        "user-story":"3",
+        "funcionalidades":["Pesquisar artistas por nome", "Mostrar a página do artista, seus álbuns e músicas", "Feature para classificar artistas", "Mostrar última música escutada de cada artista"]
+    }, {
+        "user-story":"4",
+        "funcionalidades":["Feature para marcar/desmarcar um artista como favorito"]
+    }, {
+        "user-story":"5",
+        "funcionalidades":["Adicionar playlists", "Adicionar/Remover músicas em playlists"]
+    }],
+    "persistance":false
+}
